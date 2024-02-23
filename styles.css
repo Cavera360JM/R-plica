@@ -87,3 +87,25 @@ footer {
 label {
   margin-left: 10px;
 }
+* Estilos para o cabeçalho */
+#main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo transparente */
+  padding: 20px;
+  z-index: 2; /* Coloca o cabeçalho acima do vídeo */
+}
+
+/* Estilos para o título */
+.title {
+  color: #fff; /* Cor do texto */
+  cursor: pointer; /* Altera o cursor ao passar sobre o título */
+}
+
+/* Estilos para o título ao passar o mouse */
+.title:hover {
+  text-decoration: underline; /* Sublinha o texto ao passar o mouse */
+  font-style: italic; /* Muda o estilo da fonte ao passar o mouse */
+}
