@@ -24,6 +24,20 @@ function getRandomColor() {
   }
   return color;
 }
+// Adicionar evento de clique ao título para mudar a cor do texto
+document.querySelector('.title').addEventListener('click', function() {
+  this.style.color = getRandomColor();
+});
+
+// Função para obter cor aleatória
+function getRandomColor() {
+  const letters = '0123456789ABCDEF';
+  let color = '#';
+  for (let i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+}
 
 // Adicionar evento de clique ao botão Adicionar Carro
 document.getElementById('add-car-button').addEventListener('click', addCar);
