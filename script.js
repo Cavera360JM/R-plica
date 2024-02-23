@@ -3,7 +3,7 @@ document.body.style.cursor = "pointer";
 
 // Adicionando evento de clique para mudar a imagem de fundo
 document.body.addEventListener("click", function() {
-  document.body.style.backgroundImage = "url('outra-imagem.jpg')";
+  document.body.style.backgroundImage = "url('https://w0.peakpx.com/wallpaper/351/764/HD-wallpaper-auto-deportivo-car-cars.jpg')";
 });
 
 // Função para adicionar carro à venda
