@@ -32,7 +32,7 @@
 
 /* Cursor personalizado */
 body {
-    cursor: url('custom-cursor.png'), auto;
+    cursor: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcELhQ0wi47TKNvGCmRk-CYiDjAKpvs0NqDl80u4amWbnVm6hPMqrK4xgNz4jNhcNaueQ&usqp=CAU'), auto;
 }
 
 .hover-change {
