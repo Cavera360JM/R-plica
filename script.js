@@ -10,7 +10,7 @@ TweenLite.fromTo(slideTitleEl, 0.5,
   {
     autoAlpha: 0,
     y: 20,
-    ease: 'Expo.easeIn',
+    ease: Expo.easeIn, // Removi as aspas em 'Expo.easeIn'
     onComplete: function () {
       slideTitleEl.innerHTML = nextSlideTitle;
 
