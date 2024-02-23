@@ -3,6 +3,9 @@ body {
   background-image: url('https://wallpaper29.files.wordpress.com/2016/11/papel-de-parede-do-carro-ferrari-2017.jpg');
   background-size: cover;
 }
+{
+  cursor: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcELhQ0wi47TKNvGCmRk-CYiDjAKpvs0NqDl80u4amWbnVm6hPMqrK4xgNz4jNhcNaueQ&usqp=CAU'), auto;
+}
 
 header {
   background-color: #333;
