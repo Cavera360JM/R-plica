@@ -3,10 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
     var hoverElements = document.querySelectorAll('.hover-change');
     hoverElements.forEach(function(element) {
         element.addEventListener('mouseenter', function() {
-            document.body.style.cursor = 'url(custom-cursor-hover.png), auto';
+            document.body.style.cursor = 'url(), auto';
         });
         element.addEventListener('mouseleave', function() {
-            document.body.style.cursor = 'url(custom-cursor.png), auto';
+            document.body.style.cursor = 'url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-kjmBt61exlti_bEGYC_5uW_SYm7_wGu2HQ&usqp=CAU), auto';
         });
     });
 });
