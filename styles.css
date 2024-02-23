@@ -24,7 +24,7 @@ header {
 
 /* Estilos para o resto do conteúdo, como seções, etc. */
 
-{
+body {
   cursor: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcELhQ0wi47TKNvGCmRk-CYiDjAKpvs0NqDl80u4amWbnVm6hPMqrK4xgNz4jNhcNaueQ&usqp=CAU'), auto;
 }
 
@@ -87,7 +87,8 @@ footer {
 label {
   margin-left: 10px;
 }
-* Estilos para o cabeçalho */
+
+/* Estilos para o cabeçalho */
 #main-header {
   position: fixed;
   top: 0;
@@ -109,3 +110,4 @@ label {
   text-decoration: underline; /* Sublinha o texto ao passar o mouse */
   font-style: italic; /* Muda o estilo da fonte ao passar o mouse */
 }
+
