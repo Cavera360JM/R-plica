@@ -1,1 +1,63 @@
-*{ padding: 0; margin: 0; font-family: 'Josefin Sans', sans-serif; box-sizing: border-box; } .background{ background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUK_9oQlt10hst8pgqFfI14Wmk83gdj8XTuw&s); background-size: cover; background-position: center; height: 100vh; width: 100%; } nav{ display: flex; align-items: center; justify-content: space-between; padding: 45px; padding-left: 8%; padding-right: 8%; } .logo{ color: #fff; font-size: 35px; cursor: pointer; letter-spacing: 1px; } span{ color: #EAD609;; } nav ul li{ list-style-type: none; display: inline-block; padding: 10px  25px; } nav ul li a{ color: #fff; text-decoration: none; font-weight: bold; text-transform: capitalize; } nav ul li{ list-style-type: none; display: inline-block; padding: 10px  25px; } nav ul li a{ color: #fff; text-decoration: none; font-weight: bold; text-transform: capitalize; } nav ul li a:hover{ color: #EAD609; transform: .4s; } .Main span{ color: #EAD609; } h1{ color: #fff; margin: 20px 0px 20px; font-size: 75px; }
+/* Importação da fonte */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+/* Reset CSS e definição da fonte padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilos gerais do body */
+body {
+    background: #eaeaea;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 30px 8%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+/* Estilos do logo */
+.logo {
+    font-size: 25px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 20px;
+    transition: 0.3s;
+}
+
+/* Estilos do conteúdo do menu dropdown */
+.navbar .dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+}
+
+.navbar a:hover {
+    color: #1743e3;
+}
