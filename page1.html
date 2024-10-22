@@ -1,70 +1,349 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>CONCESSIONÁRIA</title>
-    <link rel="stylesheet" href="page1.css">
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link rel="icon" type="image/x-icon" href="emblema.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Básico</title>
+    <link rel="stylesheet" href="site1.css">
 </head>
-
 <body>
-    <header class="header">
-        <div class="header-container">
-            <nav class="navbar">
-                <div class="dropdown">
-                    <a href="#">Concessionária</a>
-                    <div class="dropdown-content">
-                        <a href="page1.html">Carros à Venda</a>
-                        <a href="page2.html">Carros Mais Vendidos</a>
-                        <a href="page3.html">Pacotes Sazonais</a>
-                        <a href="page4.html">Avalie o seu Carro</a>
-                        <a href="page5.html">Meu Carrinho</a>
-                        <a href="teste3.html">TESTE3</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="#">Patrocinadores</a>
-                    <div class="dropdown-content">
-                        <a href="robe.html">Grupo Volkswagen</a>
-                        <a href="kaiser.html">Ford</a>
-                        <a href="teste2.html">TESTE2</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="#">Outros</a>
-                    <div class="dropdown-content">
-                        <a href="one.html">Formula 1</a>
-                        <a href="wec.html">WEC</a>
-                        <a href="gt.html">GT Series</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <a href="#">Quem Somos</a>
-                    <div class="dropdown-content">
-                        <a href="sobre.html">Tela de Quem Somos</a>
-                        <a href="equipe.html">Equipe</a>
-                        <a href="contato.html">Contato</a>
-                        <a href="teste.html">TESTE1</a>
-                    </div>
-                </div>
-                <!-- Adicione mais itens de menu aqui, se necessário -->
-            </nav>
-              <section class="horizontal">
-        <h1>Tudo sobre o Mais Querido!</h1>  
-    </section>
-    <div class="content-container">
-        <div class="blog-container">
-            <div class="blog-img">
-                <figure>
-                    <img class="imagen" src="https://cdn.saopaulofc.net/2024/08/mig0644-392x210.jpg" alt="foto1">
-                </figure>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="header-left">
+            <!-- Icone -->
+            <div class="logo">
+                <img src="https://cbv.com.br/wp-content/uploads/2023/03/volei.png" alt="Logo" width="70" height="70">
+            </div>
+
+            <!-- Redes Sociais -->
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank"><img src="https://img.icons8.com/ios11/200/FFFFFF/facebook-f.png" alt="Facebook" width="30" height="30"></a>
+                <a href="https://twitter.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" alt="Twitter" width="30" height="30"></a>
+                <a href="https://youtube.com" target="_blank"><img src="https://img.icons8.com/ios_filled/512/FFFFFF/youtube-play.png" alt="YouTube" width="30" height="30"></a>
+                <a href="https://instagram.com" target="_blank"><img src="https://img.icons8.com/m_outlined/200/FFFFFF/instagram-new.png" alt="Instagram" width="30" height="30"></a>
+                <a href="https://tiktok.com" target="_blank"><img src="https://img.icons8.com/win10/200/FFFFFF/tiktok.png" alt="TikTok" width="30" height="30"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="https://w7.pngwing.com/pngs/887/616/png-transparent-linkedin-icon-linkedin-text-rectangle-logo-thumbnail.png" alt="LinkedIn" width="30" height="30"></a>
             </div>
         </div>
-    </div>
+
+        <div class="header-right">
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">A CBV</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">História</a></li>
+                            <li><a href="#">Missão</a></li>
+                            <li><a href="#">Valores</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Quadra</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Superliga</a></li>
+                            <li><a href="#">Superliga B</a></li>
+                            <li><a href="#">CBS</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Praia</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">CBVP Bet7K</a></li>
+                            <li><a href="#">CBVP Sub 21</a></li>
+                            <li><a href="#">CBVP Sub 19</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Seleções</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Masculina</a></li>
+                            <li><a href="#">Feminina</a></li>
+                            <li><a href="#">Base</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Vôlei Id</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">O que é</a></li>
+                            <li><a href="#">Como Funciona</a></li>
+                            <li><a href="#">Benefícios</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Cravada</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Notícias</a></li>
+                            <li><a href="#">Destaques</a></li>
+                            <li><a href="#">Galeria</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Ingressos</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Eventos</a></li>
+                            <li><a href="#">Disponibilidade</a></li>
+                            <li><a href="#">Preços</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#">Fale Conosco</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Suporte</a></li>
+                            <li><a href="#">Feedback</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
         </div>
     </header>
-</body>
+
+    <!-- Seção da imagem com degradê e texto centralizado -->
+    <section class="banner">
+        <div class="banner-text">
+
+            <p>Início / <span class="highlight">Vôlei de Praia</span></p>
+        </div>
+    </section>
+
+    <main>
+        <section class="noticias">
+            <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00003-300x190.jpeg" alt="Imagem Notícia 1">
+                <h3>Duplas brasileiras em ação na reta final da etapa de João Pessoa do Circuito Mundial de Vôlei de Praia. Confira as imagens!</h3>
+                <p>19 de outubro de 2024</p>
+                <p>Paulo Lima / Divulgação CBV</p>
+            </article>
+
+            <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00092-2-300x200.jpeg" alt="Imagem Notícia 2">
+                <h3>Brasil garante medalha no Mundial de Vôlei de Praia. Saiba mais sobre essa conquista.</h3>
+                <p>17 de outubro de 2024</p>
+                <p>Carla Silva / Divulgação CBV</p>
+            </article>
+
+            <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/kGem3TYP-image00060-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+
+            <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/3uEVOrbE-image00045-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+             <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00088-2-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+             <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00021-300x187.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+             <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00111-1-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+             <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/kcX2f8ML-image00038-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+             <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00128-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+                <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/zwrQQgII-image00035-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+
+                <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00047-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+
+                <article class="noticia-card">
+                <img src="https://voleibrasil.s3.amazonaws.com/2024/10/image00028-300x200.jpeg" alt="Imagem Notícia 3">
+                <h3>Jogos Olímpicos de Paris 2024: Preparação das duplas brasileiras para o evento.</h3>
+                <p>15 de outubro de 2024</p>
+                <p>Roberto Oliveira / Divulgação CBV</p>
+            </article>
+        </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="logo">
+                        <img src="https://cbv.com.br/wp-content/uploads/2023/03/volei.png" alt="Logo" width="70" height="70">
+                    </div>
+                    <div class="contact-info">
+                        <p>Contato: contato@cbv.com.br</p>
+                        <p>Telefone: (11) 1234-5678</p>
+                    </div>
+                </div>
+                <div class="footer-social-media">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                    <a href="https://youtube.com" target="_blank">YouTube</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-partners">
+                <div class="patrocinador">
+                    <h3>Patrocinador Oficial</h3>
+                    <img src="https://cbv.com.br/wp-content/uploads/2023/03/logo.png" alt="Patrocinador">
+                </div>
+                <div class="copatrocinador">
+                    <h3>Co-Patrocinador</h3>
+                    <img src="https://voleibrasil.s3.amazonaws.com/2023/11/bet7k-1536x287.png" alt="Co-Patrocinador">
+                </div>
+                <div class="parceiros">
+                    <h3>Parceiros</h3>
+                    <div class="partner-row">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2024/08/imagem_2024-05-27_093945232-e1724702785795.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/12/gol.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2024/01/riachuelo.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/12/imagem_2023-12-14_144450058.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/11/fuel-logo-1.png" alt="Parceiros">
+                    </div>
+                    <div class="partner-row">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2024/08/ortobom-1536x250.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/12/380950100_799574145508523_8705816080211665871_n.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/12/cbc-1536x391.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/12/patrocinador-lapec.png" alt="Parceiros">
+                    </div>
+                    <div class="partner-row">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2023/11/ABCD-1536x664.png" alt="Parceiros">
+                        <img src="https://voleibrasil.s3.amazonaws.com/2024/01/GovBRASIL-1536x276.png" alt="Parceiros">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="footer-suppliers">
+                <h3>Fornecedores Oficiais</h3>
+                <div class="footer-supplier">
+                    <img src="https://cbv.com.br/wp-content/uploads/2023/07/bodywork-1024x421.png" alt="Fornecedor 1">
+                    <img src="https://voleibrasil.s3.amazonaws.com/2024/01/N1SPORT_HORIZONTAL_BLACK-1536x413.png" alt="Fornecedor 2">
+                    <img src="https://voleibrasil.s3.amazonaws.com/2024/07/OQ_color-1536x864.png" alt="Fornecedor 3">
+                </div>
+            </div>
+
+            <div class="footer-technical-sustainability">
+                <div>
+                    <h4>Parceiro Técnico</h4>
+                    <img src="URL_DA_IMAGEM_TECNICO" alt="Parceiro Técnico">
+                </div>
+                <div>
+                    <h4>Sustentabilidade</h4>
+                    <img src="URL_DA_IMAGEM_SUSTENTABILIDADE" alt="Sustentabilidade">
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CBV. Todos os direitos reservados.</p>
+                <p>Desenvolvido por [Seu Nome]</p>
+            </div>
+            <footer class="footer-black">
+                <div class="footer-content">
+                    <div class="footer-left">
+                        <!-- Logo e Contato -->
+                        <div class="logo">
+                            <img src="https://cbv.com.br/wp-content/uploads/2023/03/volei.png" alt="Logo" width="70" height="70">
+                        </div>
+                        <div class="contact-info">
+                            <p>CDV - Saquarema | Tel: (22) 2655-6000</p>
+                            <p>CBV - Unidade Barra | Tel: (21) 2114-7200</p>
+                        </div>
+                    </div>
+
+                    <!-- Redes Sociais -->
+                    <div class="footer-social-media">
+                        <a href="https://facebook.com" target="_blank"><img src="https://img.icons8.com/ios11/200/FFFFFF/facebook-f.png" alt="Facebook" width="30" height="30"></a>
+                        <a href="https://twitter.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/5/57/X_logo_2023_%28white%29.png" alt="Twitter" width="30" height="30"></a>
+                        <a href="https://youtube.com" target="_blank"><img src="https://img.icons8.com/ios_filled/512/FFFFFF/youtube-play.png" alt="YouTube" width="30" height="30"></a>
+                        <a href="https://instagram.com" target="_blank"><img src="https://img.icons8.com/m_outlined/200/FFFFFF/instagram-new.png" alt="Instagram" width="30" height="30"></a>
+                        <a href="https://tiktok.com" target="_blank"><img src="https://img.icons8.com/win10/200/FFFFFF/tiktok.png" alt="TikTok" width="30" height="30"></a>
+                        <a href="https://linkedin.com" target="_blank"><img src="https://w7.pngwing.com/pngs/887/616/png-transparent-linkedin-icon-linkedin-text-rectangle-logo-thumbnail.png" alt="LinkedIn" width="30" height="30"></a>
+                    </div>
+                </div>
+
+                    <div class="footer-content">
+                        <div class="footer-column">
+                            <h3>Quadra</h3>
+                            <ul>
+                                <li>Superliga</li>
+                                <li>Superliga B</li>
+                                <li>Superliga C</li>
+                                <li>CBS</li>
+                                <li>CBI</li>
+                                <li>Vôlei Master</li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Praia</h3>
+                            <ul>
+                                <li>CBVP Bet7K</li>
+                                <li>CBVP Sub 21</li>
+                                <li>CBVP Sub 19</li>
+                                <li>CBVP Sub 17</li>
+                                <li>Vôlei Master</li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Institucional</h3>
+                            <ul>
+                                <li>Notas Oficiais</li>
+                                <li>Governança</li>
+                                <li>Federações</li>
+                                <li>Imprensa</li>
+                                <li>CDV</li>
+                                <li>Perguntas Frequentes</li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h3>Desenvolvimento</h3>
+                            <ul>
+                                <li>Jornada das Estrelas</li>
+                                <li>Viva Vôlei</li>
+                                <li>CONAT</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-contact">
+                        <p>CDV - Saquarema | Tel: (22) 2655-6000</p>
+                        <p>CBV - Unidade Barra | Tel: (21) 2114-7200</p>
+                        <p>Política de Privacidade | Ouvidoria</p>
+                        <p>Desenvolvido por RioMarca.</p>
+                    </div>
+                </div>
+            </footer>
+        </footer>
